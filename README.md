@@ -1,12 +1,28 @@
-# React + Vite
+# Job Portal App (Assignment)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Job Portal application built with React (Vite).  
+This app lets users switch between **Job Seeker** 👩‍💻 and **Recruiter** 🧑‍💼 roles.  
 
-Currently, two official plugins are available:
+## ✨ Features
+- 🔄 Toggle between Job Seeker and Recruiter roles  
+- 📝 Recruiter can add, edit, and delete jobs  
+- 📋 Job Seeker can browse and apply for jobs  
+- 📂 Recruiter can view all applications for a job  
+- 🎨 Clean layout with sidebar filters, job listings, and details panel  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+- React (Vite)  
+- Plain CSS for styling  
+- Fake API: [jsonfakery.com/jobs](https://jsonfakery.com/jobs)  
 
-## Expanding the ESLint configuration
+## 🛠 How to Run Locally
+```bash
+# clone the repo
+git clone https://github.com/praneethmarupaka/job-portal-assignment.git
+cd job-portal-assignment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# install dependencies
+npm install
+
+# start dev server
+npm run dev
